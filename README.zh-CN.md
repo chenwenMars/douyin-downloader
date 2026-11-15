@@ -26,11 +26,15 @@
 
 | **抖音** | **TikTok** | **YouTube** |
 |:---:|:---:|:---:|
-| [![Douzy 抖音下载选项](img/desktop/001.png)](img/desktop/001.png) | [![Douzy TikTok 工作台](img/desktop/002.png)](img/desktop/002.png) | [![Douzy YouTube 工作台](img/desktop/003.png)](img/desktop/003.png) |
-| **Telegram 接入** | **X** | **平台切换** |
-| [![Douzy Telegram 接入](img/desktop/004.png)](img/desktop/004.png) | [![Douzy X 工作台](img/desktop/005.png)](img/desktop/005.png) | [![Douzy 平台切换](img/desktop/006.png)](img/desktop/006.png) |
+| [![Douzy 抖音工作台](img/desktop/001.png)](img/desktop/001.png) | [![Douzy TikTok 工作台](img/desktop/002.png)](img/desktop/002.png) | [![Douzy YouTube 工作台](img/desktop/003.png)](img/desktop/003.png) |
+| **Telegram 接入** | **X** | **任务中心** |
+| [![Douzy Telegram 接入](img/desktop/004.png)](img/desktop/004.png) | [![Douzy X 工作台](img/desktop/005.png)](img/desktop/005.png) | [![Douzy 任务中心](img/desktop/006.png)](img/desktop/006.png) |
 
-_截图来自 macOS 上的 Douzy 0.11.6；Telegram 展示配置前的接入页。点击图片可放大。_
+| **抖音（浅色）** | **YouTube（浅色）** | **任务中心（浅色）** |
+|:---:|:---:|:---:|
+| [![Douzy 抖音工作台浅色截图](img/desktop/007.png)](img/desktop/007.png) | [![Douzy YouTube 工作台浅色截图](img/desktop/008.png)](img/desktop/008.png) | [![Douzy 任务中心浅色截图](img/desktop/009.png)](img/desktop/009.png) |
+
+_截图来自 macOS 上的 Douzy 0.13.0（浅色与深色主题，1440 × 900，使用示例数据）；Telegram 展示配置前的接入页。点击图片可放大。_
 
 ## 命令行版现状
 

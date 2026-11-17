@@ -3,18 +3,17 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "douyin-downloader"
-version = "2.0.0"
-description = "Douyin batch downloader with no-watermark support"
+name = "douyin-dl-cli"
+version = "2.1.0"
+description = "Douyin CLI and agent skill for Claude Code, Codex and other AI agents: hot board, search, live recording, transcription"
 readme = "README.md"
 license = {text = "MIT"}
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: End Users/Desktop",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -37,7 +36,7 @@ dependencies = [
     # reproducible across CI machines. 0.6.0 is the first release that
     # ships a native macOS arm64 wheel; older versions only shipped
     # x86_64 macOS binaries.
-    "imageio-ffmpeg==0.6.0",
+    "imageio-ffmpeg==0.8.1",
 ]
 
 [project.optional-dependencies]
@@ -63,14 +62,14 @@ dev = [
     "hypothesis>=6.0",
 ]
 all = [
-    "douyin-downloader[browser,transcribe,server,dev]",
+    "douyin-dl-cli[browser,transcribe,server,dev]",
 ]
 
 [project.scripts]
 douyin-dl = "cli.main:main"
 
 [tool.setuptools.packages.find]
-include = ["cli*", "core*", "auth*", "config*", "control*", "storage*", "utils*", "tools*", "server*"]
+include = ["agent_mode*", "cli*", "core*", "auth*", "config*", "control*", "storage*", "utils*", "tools*", "server*"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

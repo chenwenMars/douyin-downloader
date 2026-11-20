@@ -7,7 +7,7 @@
 
 [简体中文](https://github.com/jiji262/douyin-downloader/blob/main/README.zh-CN.md) · **English**
 
-**A Douyin skill for AI agents.** Let Claude Code, Codex, and other agents read the hot board, search, look up profiles, record live streams, and transcribe media. Every `douyin-dl agent` command prints one JSON line with stable error codes, and the bundled [skill](#ai-agent--skill) tells the agent when and how to call it. To download videos and photos without watermarks, use the **[Douzy desktop app](#douzy-desktop)**.
+**A Douyin skill for AI agents.** Let Claude Code, Codex, and other agents read the hot board, search, look up profiles, record live streams, and transcribe media. Every `douyin-dl agent` command prints one JSON line with stable error codes, and the bundled [skill](#ai-agent--skill) tells the agent when and how to call it. To download videos and photos, use the **[Douzy desktop app](#douzy-desktop)**.
 
 ## AI Agent / Skill
 
@@ -70,7 +70,7 @@ Save media from Douyin, TikTok, YouTube, Telegram, and X to your computer. Paste
 
 **[Download for Windows or macOS](https://godouzy.com/#get)** · [GitHub project](https://github.com/0X-42/douzy) · [Latest release and notes](https://github.com/0X-42/douzy/releases/latest)
 
-[![Douzy workspace with platform navigation, recent tasks, and saved media.](https://raw.githubusercontent.com/0X-42/douzy/main/media/workbench.png)](https://github.com/0X-42/douzy/blob/main/media/workbench.png)
+[![Douzy workspace with platform navigation, recent tasks, and saved media.](https://raw.githubusercontent.com/0X-42/douzy/main/media/workbench-en.png)](https://github.com/0X-42/douzy/blob/main/media/workbench-en.png)
 
 *The macOS workspace with sample data. Select the screenshot to view it at full size in the Douzy project.*
 
